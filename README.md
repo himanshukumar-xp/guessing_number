@@ -62,6 +62,8 @@ git clone https://github.com/himanshukumar-xp/number-guessing-game.git
 
 Let me know if you'd like this tailored for deployment on GitHub Pages or modified for another tech stack like React or Vue!
 
+Author : Himanshu Kumar
+
 
 
 
