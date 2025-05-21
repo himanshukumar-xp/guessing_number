@@ -35,5 +35,25 @@ A simple and interactive number guessing game built using HTML, CSS, and JavaScr
 
 ## 📂 Project Structure
 
+## 💡 Example JavaScript Logic (Simplified)
+
+```javascript
+const secretNumber = Math.floor(Math.random() * 100) + 1;
+let attempts = 0;
+
+document.querySelector('#checkBtn').addEventListener('click', function () {
+  const guess = Number(document.querySelector('#guessInput').value);
+  attempts++;
+
+  if (guess === secretNumber) {
+    alert(`🎉 Correct! You guessed it in ${attempts} tries.`);
+  } else if (guess > secretNumber) {
+    alert('📉 Too high!');
+  } else {
+    alert('📈 Too low!');
+  }
+});
+
+
 
 
