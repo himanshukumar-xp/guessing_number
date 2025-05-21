@@ -53,6 +53,9 @@ document.querySelector('#checkBtn').addEventListener('click', function () {
     alert('📈 Too low!');
   }
 });
+```
+for clone the Repository
+git clone https://github.com/himanshukumar-xp/number-guessing-game.git
 
 
 
